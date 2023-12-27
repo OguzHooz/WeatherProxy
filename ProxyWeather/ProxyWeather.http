@@ -1,0 +1,6 @@
+@ProxyWeather_HostAddress = http://localhost:5268
+
+GET {{ProxyWeather_HostAddress}}/api/weather/copenhagen
+Accept: application/json
+
+###
